@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Login Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Login Test</h1>
+<p>
+  Test duration: 12.134s
+</p>
+
+
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.ultimateqa.testsuite.LoginPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  userShouldNavigateToLoginPageSuccessfully
+      </td>
+  <td class="duration">
+    0.986s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Click on SignInLink[[ChromeDriver: chrome on WINDOWS (4abb84ba4407452447e063320d515847)] -&gt; xpath: //a[contains(text(),&apos;Sign In&apos;)]]<br />
+                                Get Welcome Message[[ChromeDriver: chrome on WINDOWS (4abb84ba4407452447e063320d515847)] -&gt; xpath: //h2[contains(text(),&apos;Welcome Back!&apos;)]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyTheErrorMessage
+      </td>
+  <td class="duration">
+    1.955s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Click on SignInLink[[ChromeDriver: chrome on WINDOWS (0157307d4f4935b4f9b44780544420be)] -&gt; xpath: //a[contains(text(),&apos;Sign In&apos;)]]<br />
+                                Enter emailtesting13@gail.com to email field [[ChromeDriver: chrome on WINDOWS (0157307d4f4935b4f9b44780544420be)] -&gt; id: user[email]]<br />
+                                Enter passwordtest34 to password field [[ChromeDriver: chrome on WINDOWS (0157307d4f4935b4f9b44780544420be)] -&gt; name: user[password]]<br />
+                                Click on Sign In Button[[ChromeDriver: chrome on WINDOWS (0157307d4f4935b4f9b44780544420be)] -&gt; xpath: //button[contains(text(),&apos;Sign in&apos;)]]<br />
+                                Get Error Message[[ChromeDriver: chrome on WINDOWS (0157307d4f4935b4f9b44780544420be)] -&gt; xpath: //li[contains(text(),&apos;Invalid email or password.&apos;)]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
